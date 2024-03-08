@@ -1,0 +1,58 @@
+{
+    "fileName": "Slide1",
+    "diagram": [{
+        "id": "frame1",
+        "index": 1,
+        "script": "<1-> img1\n<2-5> formula1\n<3> tbox1[1]\n<5> tbox1[2]\n<6-> tbox1[3:4]\n<7> tbox1[5:]\n<8-11> tbox2",                
+        "style": {
+            "colorBackround": "#e79388",
+            "size": "1204px 768px"            
+        }
+    }],
+    "image": [{
+        "content": "https://imgs.xkcd.com/comics/sandwich.png",               
+        "diagram": "frame1",               
+        "id": "img1",
+        "style": {
+            "keepAspectRatio": true,
+            "position": "130px 400px",          
+            "size": "460px 399px"             
+        }
+    }],
+    "katex": [{
+        "content": "\\[ \\sum_{1}^{n} = \\frac{n \\cdot (n-1)}{2} \\]",              
+        "diagram": "frame1",              
+        "id": "formula1",
+        "style": {
+            "alignment": "center",         
+            "colorForeground": "#0000ff",
+            "fontSize": 30,
+            "position": "500px 300px",       
+            "size": "100px 300px"              
+        }
+    }],
+    "text": [{
+        "content": "textline1\ntextline2\ntextline3\ntextline4\ntextline5\ntextline6",      
+        "diagram": "frame1",       
+        "id": "tbox1",
+        "style": {
+            "alignment": "left",          
+            "colorForeground": "#7C4212",
+            "fontSize": 18,
+            "position": "500px 300px",          
+            "size": "400px 200px"              
+        }
+    }, 
+    {
+        "content": "content1\ncontent2\ncontent3",            
+        "id": "tbox2",
+        "diagram": "frame1", 
+        "style": {
+            "alignment": "right",          
+            "colorForeground": "#aa0000",
+            "fontSize": 12,
+            "position": "200px 200px",          
+            "size": "400px 400px"              
+        }
+    }]
+}
